@@ -130,7 +130,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: Soccer Robot (made with Arduino) at KAIST Indonesia overseas Volunteer, 2020
+        title: Soccer Robot (made with Arduino)
+        sub_title: KAIST Indonesia overseas Volunteer
+        caption: 2020
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
         #additional_links:
