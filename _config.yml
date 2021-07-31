@@ -54,8 +54,11 @@ linkedin_username: HanhoRyu
 about_profile_image: images/photo.jpg
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>. (아래)
 about_content: | # this will include new lines to allow paragraphs
-  I am a student studying computer science at KAIST. Previously, I studied at Ajou University Science Gifted Education Center and Gyeonggibuk Science High School, and continued to study computer science. |
+  Hello, I am a student of KAIST, School of Computing. Previously, I studied at Ajou University Science Gifted Education Center and Gyeonggibuk Science High School, and continued to study computer science.
+
   This website was created to store my records and portfolio.
+
+  If you want to contact me, please send me an email.
 
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
@@ -64,10 +67,69 @@ about_content: | # this will include new lines to allow paragraphs
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top
+        title: Korea Institute of Science and Technology (KAIST)
+        sub_title: B.S in School of Computing
+        caption: 2019 ~
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  KAIST is a national research university located in Daedeok Innopolis, Daejeon, South Korea. KAIST was established by the Korean government in 1971 as the nation's first public, research-oriented science and engineering institution. KAIST is considered to be one of the most prestigious universities in the nation.
+      - layout: top
+        title: Gyunggibuk Science High School
+        sub_title: early graduation
+        caption: 2017 ~ 2018
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  KAIST is a national research university located in Daedeok Innopolis, Daejeon, South Korea. KAIST was established by the Korean government in 1971 as the nation's first public, research-oriented science and engineering institution. KAIST is considered to be one of the most prestigious universities in the nation.
+
+  - title: Organizations and Volunteers
+    layout: list
+    content:
+      - layout: top
+        title: KAIST Global Student Volunteers
+        sub_title: Welfare department member
+        caption: 2019 fall ~
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  KAIST Global Student Volunteers is an organization that conducts overseas volunteer work in Africa and Southeast Asia and various domestic volunteer activities.
+      
+      - layout: top
+        title: University Student Union Presentation Club SPLing
+        sub_title: 40th members and 42nd staff
+        caption: 2020.03 ~ 2021.02
+
+      - layout: top
+        title: KAIST Indonesia Volunteers
+        sub_title: TF and ICT advanced team leader
+        caption: 2020.01 ~ 2020.02
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  We went to Indonesia and provided ICT, math, and science education to Indonesian students, and I served as the team leader of the ICT advanced team so that students could receive ICT education while making soccer robots.
+
+      - layout: top
+        title: KAIST International Student Organization (ISO)
+        sub_title: member
+        caption: 2019.09 ~ 2019.12
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  We went to Indonesia and provided ICT, math, and science education to Indonesian students, and I served as the team leader of the ICT advanced team so that students could receive ICT education while making soccer robots.
+
+      
+        
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
+      - layout: top
         title: Soccer Robot (made with Arduino) at KAIST Indonesia overseas Volunteer, 2020
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
@@ -83,65 +145,57 @@ content:
         description: | # this will include new lines to allow paragraphs
           I took on the role of teaching ICT to Indonesian students by serving as the team leader of the ICT advanced team at KAIST's overseas volunteer work in Indonesia. At this time, students made a soccer robot using Arduino and played a game directly using it, so that they could learn ICT knowledge through physical experience.
           
-      - layout: top-right
+      - layout: top
         title: Pattern Puzzle (Android Application), 2018
         description: | # this will include new lines to allow paragraphs
           This is an app that started with the idea of making a puzzle game using the patterns of an Android smartphone (made with a friend). It was developed using Processing for Android, and the pattern was implemented as an adjacency matrix. It consists of "Stage Mode" that solves fixed puzzles and "Arcade Mode" that solves as many random puzzles as quickly as possible. Through this application, we received a silver prize in the Korea Olympiad in Informatics competition.
           
-      - layout: top-right
+      - layout: top
         title: Study on software development based on Service Design at SALAB, KAIST (Pre URP), 2017
         description: | # this will include new lines to allow paragraphs
           Through the Pre URP program, I entered KAIST's lab as a high school student and conducted research. The purpose of this study was to facilitate organizational communication and develop efficient software. Various methods of service design methodology were applied to actual case studies and more efficient SW development was designed by convergence with software engineering.
           
-      - layout: top-right
+      - layout: top
         title: Organizing tailored traffic light system with genetic algorithm at Gyeonggibuk Science Highschool R&E, 2017
         description: | # this will include new lines to allow paragraphs
           This study started with the idea of reducing traffic congestion by using an appropriate signal system. Using genetic algorithm and SUMO, a traffic program, a signal system that minimizes traffic jams on various roads was automatically constructed. In a complex road, a method of generating and comparing several methods was used according to the method of dividing, applying a genetic algorithm, and merging.
           
-      - layout: top-right
-        title: Smart Home Development Using Arduino (아두이노를 이용한 스마트홈 개발) at Ajou university science education institute for gifted, 2015
+      - layout: top
+        title: Smart Home Development Using Arduino at Ajou university science education institute for gifted, 2015
         description: | # this will include new lines to allow paragraphs
           This is a study on the development of a smart home that can easily control the situation inside the house using Arduino. Specifically, when exposed to dangerous objects, a buzzer sounds, the presence of a person is checked, the light is turned on, and the light is automatically adjusted by sensing the brightness of the light. Through this research, I graduated at the top from the Ajou university science education institute for gifted and won a University President's Award.
           
-      - layout: top-right
-        title: Professional Baseball Encyclopedia (프로야구 백과사전), 2014
+      - layout: top
+        title: Professional Baseball Encyclopedia (Android Application), 2014
         description: | # this will include new lines to allow paragraphs
          It is the first Android application that I developed and released on Google Play when I was in my second year of middle school. This is an app that contains various information about Korean professional baseball, such as records for each player and team, and game schedule.
          
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Korea Institute of Science and Technology (KAIST)
-        sub_title: B.S in School of Computing
-        caption: 2019 ~
-        #quote: >
-        #  Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          KAIST is a national research university located in Daedeok Innopolis, Daejeon, South Korea. KAIST was established by the Korean government in 1971 as the nation's first public, research-oriented science and engineering institution. KAIST is considered to be one of the most prestigious universities in the nation.
+#  - title: Experience
+#    layout: list
+#    content:
+#      - layout: left
+#        title: Company name
+#        sub_title: Job title
+#        caption: Date Range (eg. November 2016 - present)
+#        link: Link to company (optional)
+#        quote: >
+#          Short description of the company (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description of role
+
+
+         
   - title: Time Line
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **2021**
-      
+      #### **2021**
+
       KAIST School of Computing Student Council
       
       KAIST, Awarded as student of superior leadership mileage of first half of 2021
       
       
-      **2020**
+      #### **2020**
       
       KAIST Indonesia ICT overseas Volunteer
       - Make Soccer Robot with Arduino
@@ -155,7 +209,7 @@ content:
       KAIST Global Student Volunteers, KGSV
       
       
-      **2019** 
+      #### **2019** 
       
       Admission to KAIST
       
@@ -170,7 +224,7 @@ content:
       KAIST Global Student Volunteers, KGSV
       
       
-      **2018**
+      #### **2018**
       
       Korea Olympiad in Informatics (KOI) - 공모부문 Silver Award
       
@@ -181,7 +235,7 @@ content:
       Graduate Gyeonggibuk Science Highschool (early graduation)
       
       
-      **2017**
+      #### **2017**
       
       Admission to Gyeonggibuk Science Highschool
       
@@ -192,21 +246,21 @@ content:
       Research on "Organizing tailored traffic light system with genetic algorithm (유전 알고리즘을 이용한 맞춤형 신호 체계 구축)" at Gyeonggibuk Science Highschool R&E
       
       
-      **2015**
+      #### **2015**
 
       Ajou university science education institute for gifted - Computer Science Middle school research class(아주대학교 과학영재교육원 중등 정보과학 사사반) (graduated at the top, Win a University President's Award)
       
       Research on "Smart Home Development Using Arduino (아두이노를 이용한 스마트홈 개발)"
       
       
-      **2014**
+      #### **2014**
       
       Ajou university science education institute for gifted - Computer Science Middle school intensive class(아주대학교 과학영재교육원 중등 정보과학 심화반)
       
       Developed and Published Android Application "Professional Baseball Encyclopedia (프로야구 백과사전)"
       
       
-      **2013**
+      #### **2013**
       
       Ajou university science education institute for gifted - Computer Science Elementary school intensive class(아주대학교 과학영재교육원 초등 정보과학 심화반)
 # Footer
