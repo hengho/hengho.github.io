@@ -1,0 +1,238 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Hanho Ryu
+title: Developer
+email: gksghyou@kaist.ac.kr
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: https://hengho.github.io/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  hengho
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+facebook_username: hanhokk
+#flickr_username: jekyll
+instagram_username: uhanho
+linkedin_username: HanhoRyu
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/photo.jpg
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>. (아래)
+about_content: | # this will include new lines to allow paragraphs
+  I am a student studying computer science at KAIST. Previously, I studied at Ajou University Science Gifted Education Center and Gyeonggibuk Science High School, and continued to study computer science. |
+  This website was created to store my records and portfolio.
+
+#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#    - Lists
+#    - Tables
+#    - <a href="google.com">Links</a>
+#    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-right
+        title: Soccer Robot (made with Arduino) at KAIST Indonesia overseas Volunteer, 2020
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        #additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #quote: >
+        #  Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          I took on the role of teaching ICT to Indonesian students by serving as the team leader of the ICT advanced team at KAIST's overseas volunteer work in Indonesia. At this time, students made a soccer robot using Arduino and played a game directly using it, so that they could learn ICT knowledge through physical experience.
+          
+      - layout: top-right
+        title: Pattern Puzzle (Android Application), 2018
+        description: | # this will include new lines to allow paragraphs
+          This is an app that started with the idea of making a puzzle game using the patterns of an Android smartphone (made with a friend). It was developed using Processing for Android, and the pattern was implemented as an adjacency matrix. It consists of "Stage Mode" that solves fixed puzzles and "Arcade Mode" that solves as many random puzzles as quickly as possible. Through this application, we received a silver prize in the Korea Olympiad in Informatics competition.
+          
+      - layout: top-right
+        title: Study on software development based on Service Design at SALAB, KAIST (Pre URP), 2017
+        description: | # this will include new lines to allow paragraphs
+          Through the Pre URP program, I entered KAIST's lab as a high school student and conducted research. The purpose of this study was to facilitate organizational communication and develop efficient software. Various methods of service design methodology were applied to actual case studies and more efficient SW development was designed by convergence with software engineering.
+          
+      - layout: top-right
+        title: Organizing tailored traffic light system with genetic algorithm at Gyeonggibuk Science Highschool R&E, 2017
+        description: | # this will include new lines to allow paragraphs
+          This study started with the idea of reducing traffic congestion by using an appropriate signal system. Using genetic algorithm and SUMO, a traffic program, a signal system that minimizes traffic jams on various roads was automatically constructed. In a complex road, a method of generating and comparing several methods was used according to the method of dividing, applying a genetic algorithm, and merging.
+          
+      - layout: top-right
+        title: Smart Home Development Using Arduino (아두이노를 이용한 스마트홈 개발) at Ajou university science education institute for gifted, 2015
+        description: | # this will include new lines to allow paragraphs
+          This is a study on the development of a smart home that can easily control the situation inside the house using Arduino. Specifically, when exposed to dangerous objects, a buzzer sounds, the presence of a person is checked, the light is turned on, and the light is automatically adjusted by sensing the brightness of the light. Through this research, I graduated at the top from the Ajou university science education institute for gifted and won a University President's Award.
+          
+      - layout: top-right
+        title: Professional Baseball Encyclopedia (프로야구 백과사전), 2014
+        description: | # this will include new lines to allow paragraphs
+         It is the first Android application that I developed and released on Google Play when I was in my second year of middle school. This is an app that contains various information about Korean professional baseball, such as records for each player and team, and game schedule.
+         
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Korea Institute of Science and Technology (KAIST)
+        sub_title: B.S in School of Computing
+        caption: 2019 ~
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          KAIST is a national research university located in Daedeok Innopolis, Daejeon, South Korea. KAIST was established by the Korean government in 1971 as the nation's first public, research-oriented science and engineering institution. KAIST is considered to be one of the most prestigious universities in the nation.
+  - title: Time Line
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **2021**
+      
+      KAIST School of Computing Student Council
+      
+      KAIST, Awarded as student of superior leadership mileage of first half of 2021
+      
+      
+      **2020**
+      
+      KAIST Indonesia ICT overseas Volunteer
+      - Make Soccer Robot with Arduino
+      
+      University Student Union Presentation club "Spling"
+      
+      Won a prize in the association presentation contest "Pinale"
+      
+      KAIST School of Computing Student Council
+      
+      KAIST Global Student Volunteers, KGSV
+      
+      
+      **2019** 
+      
+      Admission to KAIST
+      
+      KAIST, 2019 Best Freshmen Award
+      
+      KAIST, 2019 Spring Semester Dean's list
+      
+      KAIST, Algorithm problem solving club "Run"
+      
+      KAIST International Student Organization, ISO
+      
+      KAIST Global Student Volunteers, KGSV
+      
+      
+      **2018**
+      
+      Korea Olympiad in Informatics (KOI) - 공모부문 Silver Award
+      
+      Korea Olympiad in Informatics (KOI) - 경시부문 Bronze Award
+      
+      Developed Android Game Application "Pattern Puzzle (패턴 퍼즐)"
+      
+      Graduate Gyeonggibuk Science Highschool (early graduation)
+      
+      
+      **2017**
+      
+      Admission to Gyeonggibuk Science Highschool
+      
+      International Olympiad in Informatics (IOI) Summer School & Winter School (at Korea)
+      
+      Research on KAIST Pre URP at SALab
+      
+      Research on "Organizing tailored traffic light system with genetic algorithm (유전 알고리즘을 이용한 맞춤형 신호 체계 구축)" at Gyeonggibuk Science Highschool R&E
+      
+      
+      **2015**
+
+      Ajou university science education institute for gifted - Computer Science Middle school research class(아주대학교 과학영재교육원 중등 정보과학 사사반) (graduated at the top, Win a University President's Award)
+      
+      Research on "Smart Home Development Using Arduino (아두이노를 이용한 스마트홈 개발)"
+      
+      
+      **2014**
+      
+      Ajou university science education institute for gifted - Computer Science Middle school intensive class(아주대학교 과학영재교육원 중등 정보과학 심화반)
+      
+      Developed and Published Android Application "Professional Baseball Encyclopedia (프로야구 백과사전)"
+      
+      
+      **2013**
+      
+      Ajou university science education institute for gifted - Computer Science Elementary school intensive class(아주대학교 과학영재교육원 초등 정보과학 심화반)
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
