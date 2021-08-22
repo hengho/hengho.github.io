@@ -201,8 +201,9 @@ content:
   - title: Time Line
     layout: text
     content: | # this will include new lines to allow paragraphs
-      #### "2021"
-
+      #### 2021
+      &#10;
+      &#10;
       KAIST School of Computing Student Council
       
       KAIST, Awarded as student of superior leadership mileage of first half of 2021
