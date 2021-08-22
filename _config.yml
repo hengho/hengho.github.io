@@ -177,6 +177,11 @@ content:
         #  Short institution or course description (optional)
         #description: | # this will include new lines to allow paragraphs
         #  We went to Indonesia and provided ICT, math, and science education to Indonesian students, and I served as the team leader of the ICT advanced team so that students could receive ICT education while making soccer robots.
+        
+      - layout: top
+        title: Gyeonggibuk Science High School Computer Science Club SADA
+        sub_title: 13th president
+        caption: 2019.09 ~ 2019.12
 
 #  - title: Experience
 #    layout: list
