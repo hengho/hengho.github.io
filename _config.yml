@@ -203,7 +203,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       #### 2021
       
-      &#10;
+    &#10;
 
       KAIST School of Computing Student Council
       
@@ -217,7 +217,7 @@ content:
       
       University Student Union Presentation club "Spling"
       
-      Won a prize in the association presentation contest "Pinale"
+      - Won a prize in the association presentation contest "Pinale"
       
       KAIST School of Computing Student Council
       
