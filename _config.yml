@@ -202,7 +202,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       #### 2021
-      &lt;br&gt;
+      
+      &#10;
 
       KAIST School of Computing Student Council
       
