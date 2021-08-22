@@ -201,14 +201,14 @@ content:
   - title: Time Line
     layout: text
     content: | # this will include new lines to allow paragraphs
-      #### 2021
+      ### 2021
 
       KAIST School of Computing Student Council
       
       KAIST, Awarded as student of superior leadership mileage of first half of 2021
       
       
-      #### 2020
+      ### 2020
       
       KAIST Indonesia ICT overseas Volunteer
       - Make Soccer Robot with Arduino
@@ -222,7 +222,7 @@ content:
       KAIST Global Student Volunteers, KGSV
       
       
-      #### 2019
+      ### 2019
       
       Admission to KAIST
       
