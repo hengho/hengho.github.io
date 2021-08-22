@@ -201,9 +201,7 @@ content:
   - title: Time Line
     layout: text
     content: | # this will include new lines to allow paragraphs
-      #### 2021
-      
-    &lt;br&gt;
+      #### 2021 ####
 
       KAIST School of Computing Student Council
       
@@ -224,7 +222,7 @@ content:
       KAIST Global Student Volunteers, KGSV
       
       
-      ### 2019
+      #### 2019
       
       Admission to KAIST
       
