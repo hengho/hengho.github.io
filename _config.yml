@@ -149,7 +149,7 @@ content:
       - layout: top
         title: KAIST Global Student Volunteers
         sub_title: Welfare department member
-        caption: 2019 fall ~
+        caption: 2019.09 ~
         #quote: >
         #  Short institution or course description (optional)
         #description: | # this will include new lines to allow paragraphs
@@ -181,7 +181,7 @@ content:
       - layout: top
         title: Gyeonggibuk Science High School Computer Science Club SADA
         sub_title: 13th president
-        caption: 2019.09 ~ 2019.12
+        caption: 2017 ~ 2018
 
 #  - title: Experience
 #    layout: list
