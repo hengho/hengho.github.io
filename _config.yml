@@ -182,6 +182,31 @@ content:
         title: Gyeonggibuk Science High School Computer Science Club SADA
         sub_title: 13th president
         caption: 2017 ~ 2018
+        
+  - title: Honors and Awards
+    layout: list
+    content:
+      - layout: top-right
+        title: KAIST Leadership Mileage Diamond Award
+        caption: 2021
+      - layout: top-right
+        tite: KAIST 2019 Best Freshmen Award
+        caption: 2019
+      - layout: top-right
+        tite: KAIST 2019 Spring Semester Dean's list
+        caption: 2019
+      - layout: top-right
+        tite: Korea Olympiad of Informatics Contest Sector(한국정보올림피아드 공모부문) Silver Prize
+        caption: 2018
+      - layout: top-right
+        tite: Korea Olympiad of Informatics Competition Sector(한국정보올림피아드 경시부문) Bronze Prize
+        caption: 2018
+      - layout: top-right
+        tite: International Olympiad in Informatics Summer School & Winter School
+        caption: 2017
+      - layout: top-right
+        tite: Ajou University Science Education Institute for Gifted University President's Award
+        caption: 2015
 
 #  - title: Experience
 #    layout: list
